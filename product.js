@@ -20,6 +20,7 @@ fetch('data.csv')
                 const productProcedencia = values[5];
                 const productUbicacion = values[6];
                 const productEstado = values[7];
+                const productCodigo = values[8];
 
                 productDetails += `<h2>${productName}</h2>`;
                 productDetails += `<p><strong>Marca:</strong> ${productMarca}</p>`;
@@ -28,6 +29,7 @@ fetch('data.csv')
                 productDetails += `<p><strong>Procedencia:</strong> ${productProcedencia}</p>`;
                 productDetails += `<p><strong>Ubicacion:</strong> ${productUbicacion}</p>`;
                 productDetails += `<p><strong>Estado:</strong> ${productEstado}</p>`;
+                productDetails += `<p><strong>Código:</strong> ${productCodigo}</p>`;
                 
                 break;
             }
